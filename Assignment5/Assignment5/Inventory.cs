@@ -74,7 +74,7 @@ namespace Assignment5
         /// </summary>
         /// <param name="item"></param>
         /// <returns></returns>
-        bool AddItem(Item item)
+        public bool AddItem(Item item)
         {
             // Add it in the items dictionary and increment it the number if it already exist
             // Reduce the slot once it's been added.
@@ -103,7 +103,7 @@ namespace Assignment5
         /// Iterates through the dictionary and create a list of all the items.
         /// </summary>
         /// <returns></returns>
-        List<Item> ListAllItems()
+        public List<Item> ListAllItems()
         {
             // use a foreach loop to iterate through the key value pairs and duplicate the item base on the quantity.
             List<Item> nList = new List<Item>();
